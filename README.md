@@ -17,10 +17,9 @@ To Reproducing Findings:
 - Make env.py file that contains the host, username and password for the mySQL database and go into the Zillow table. Store that env file in the same repository. Clone my repository along with the acquire_zillow.py and prepare_zillow.py. Make sure .gitignore is hiding your env.py. You should be able to run Logerror report.
 
 
-Data Dictionary:
-|----------|:-----:|-----:|
+|Data Dictionary:|
 |Attribute | Value | Dtype|
-|Age | Number of years from original construction until the home sold in 2017. | Float|
+|Age       | Number of years from original construction until the home sold in 2017. | Float|
 |Bathrooms | Number of bathrooms in home | Float|
 |Bedrooms | Number of bedrooms | Float|
 |Finished Sqft | Calculated total finished living area of the home | Float|
