@@ -18,22 +18,23 @@ To Reproducing Findings:
 
 
 |Data Dictionary:|
-|Attribute | Value | Dtype|
+|----------|-----|
+|Attribute | Value| Dtype|
 |Age       | Number of years from original construction until the home sold in 2017. | Float|
 |Bathrooms | Number of bathrooms in home | Float|
-|Bedrooms | Number of bedrooms | Float|
-|Finished Sqft | Calculated total finished living area of the home | Float|
-|Cola | Where properties are located | Int|
-|Fips | Federal Information Processing Standard Code | Float|
-|Dollar_per_sqft | How many dollars per sqft | Float|
-|Latitude | Latitude of property | Float|
+|Bedrooms  | Number of bedrooms | Float|
+|Sqft      | Calculated total finished living area of the home | Float|
+|Cola      | Where properties are located | Int|
+|Fips      | Federal Information Processing Standard Code | Float|
+|$ per sqft| How many dollars per sqft | Float|
+|Latitude  | Latitude of property | Float|
 |Longitude | Longitude of property | Float|
-|Home_value | Value of home	| Float|
-|Land_tax | The 2017 total tax assessed value of the land | Float|
-|Age | Number of years from original construction until the home sold in 2017.	| Float|
-|Acres | Square footage of lot converted to acres | Category|
-|Has_pool | If the property has a pool |Float|
-|County	| What county it is in | Float|
-|Logerror | the log(Zestimate) - log(SalePrice)	| Float|
+|Home_value| Value of home	| Float|
+|Land_tax  | The 2017 total tax assessed value of the land | Float|
+|Age       | Number of years from original construction until the home sold in 2017.| Float|
+|Acres     | Square footage of lot converted to acres | Category|
+|Has_pool  | If the property has a pool |Float|
+|County	   | What county it is in | Float|
+|Logerror  | the log(Zestimate) - log(SalePrice)	| Float|
 
 
