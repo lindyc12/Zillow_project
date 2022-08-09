@@ -20,6 +20,7 @@ To Reproducing Findings:
 |Data Dictionary:|
 |----------|-----|
 |Attribute | Value| Dtype|
+|----------|:----:|-----:|
 |Age       | Number of years from original construction until the home sold in 2017. | Float|
 |Bathrooms | Number of bathrooms in home | Float|
 |Bedrooms  | Number of bedrooms | Float|
@@ -35,6 +36,6 @@ To Reproducing Findings:
 |Acres     | Square footage of lot converted to acres | Category|
 |Has_pool  | If the property has a pool |Float|
 |County	   | What county it is in | Float|
-|Logerror  | the log(Zestimate) - log(SalePrice)	| Float|
+|Logerror  | the log(Zestimate) - log(SalePrice) | Float|
 
 
